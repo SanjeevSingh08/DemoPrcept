@@ -42,11 +42,11 @@ function AdminLoginForm() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-gray-50">
       <div className="w-full max-w-md rounded-lg bg-white p-8 shadow-md">
-        <h1 className="mb-6 text-2xl font-bold text-gray-900">Demo by Prcpt — Admin Login</h1>
+        <h1 className="mb-6 text-2xl font-bold text-gray-900">Demo by Prcept — Admin Login</h1>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
             <label htmlFor="username" className="block text-sm font-medium text-gray-700">
-              Username
+             Email
             </label>
             <input
               id="username"
